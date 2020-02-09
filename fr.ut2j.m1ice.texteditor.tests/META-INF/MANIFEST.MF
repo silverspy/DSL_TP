@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: fr.ut2j.m1ice.texteditor.tests
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.ut2j.m1ice.texteditor.tests
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: fr.ut2j.m1ice.texteditor.tests; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: fr.ut2j.m1ice.texteditor,
+ fr.ut2j.m1ice.fsm,
+ org.junit;bundle-version="4.12.0",
+ org.eclipse.xtext.testing,
+ org.eclipse.xtext.xbase.testing
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
